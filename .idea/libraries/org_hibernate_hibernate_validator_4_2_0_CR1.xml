@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="org.hibernate:hibernate-validator:4.2.0.CR1" type="repository">
+    <properties maven-id="org.hibernate:hibernate-validator:4.2.0.CR1" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../.m2/repository/hibernate-validator-4.2.0.CR1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../.m2/repository/validation-api-1.0.0.GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../.m2/repository/slf4j-api-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../.m2/repository/jaxb-api-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../.m2/repository/jaxb-impl-2.1.12.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

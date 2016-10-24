@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+     <class name="com.white.walker.model.UserInfo" table="tb_zhihu">
+         <id name="uid" type="int">
+             <column name="uid"/>
+             <generator class="increment"/>
+         </id>
+         <property name="username" type="java.lang.String">
+             <column name="username"/>
+         </property>
+         <property name="sex" type="java.lang.String">
+             <column name="sex"/>
+         </property>
+         <property name="address" type="java.lang.String">
+             <column name="address"/>
+         </property>
+         <property name="business" type="java.lang.String">
+             <column name="business"/>
+         </property>
+         <property name="job" type="java.lang.String">
+             <column name="job"/>
+         </property>
+         <property name="edu" type="java.lang.String">
+             <column name="edu"/>
+         </property>
+         <property name="info" type="java.lang.String">
+             <column name="info"/>
+         </property>
+         <property name="url" type="java.lang.String">
+             <column name="url"/>
+         </property>
+         <property name="imgurl" type="java.lang.String">
+             <column name="imgurl"/>
+         </property>
+     </class>
+</hibernate-mapping>
